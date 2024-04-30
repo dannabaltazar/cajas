@@ -1,0 +1,47 @@
+  <section class="flex-container">
+  <div class="cara"> 
+    <div class="ojo izquierdo"> </div>
+    <div class="ojo derecho"> </div>
+    
+    <div class="boca"> </div>
+  
+    
+  </section>
+    css:
+
+.flex-container
+{
+    background-color: aquamarine;
+    align-content: center;
+}
+.cara {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+}
+.ojo {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+.ojo.izquierdo {
+    top: 40px;
+    left: 60px;
+}
+.ojo.derecho {
+    top: 40px;
+    right: 60px;
+}
+.boca {
+    width: 120px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+}
